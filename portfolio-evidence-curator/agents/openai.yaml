@@ -1,0 +1,6 @@
+interface:
+  display_name: "Portfolio Evidence Curator"
+  short_description: "Turn real work into credible case studies"
+  default_prompt: "Use $portfolio-evidence-curator to turn my project notes into a truthful portfolio case study."
+policy:
+  allow_implicit_invocation: true
