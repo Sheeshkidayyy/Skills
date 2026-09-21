@@ -1,6 +1,0 @@
-interface:
-  display_name: "CyberPatriot Safe Publishing"
-  short_description: "Draft safe public CyberPatriot resources"
-  default_prompt: "Use $cyberpatriot-safe-publishing to prepare this CyberPatriot material for public review."
-policy:
-  allow_implicit_invocation: true
