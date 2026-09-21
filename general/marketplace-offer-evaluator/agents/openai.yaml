@@ -1,0 +1,6 @@
+interface:
+  display_name: "Marketplace Offer Evaluator"
+  short_description: "Assess listings before buying, selling, or trading"
+  default_prompt: "Use $marketplace-offer-evaluator to assess this listing from the pasted details and screenshots, including a fair value range, condition evidence, offer guidance, and risks."
+policy:
+  allow_implicit_invocation: true
