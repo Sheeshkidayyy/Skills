@@ -1,11 +1,15 @@
-# Skills
+# Reusable Codex Skills
 
-Personal Codex skills for building websites, documenting real technical work, and preparing safe public CyberPatriot resources.
+Small, focused skills organized by the kind of work they support rather than by a single personal website.
 
-## Included skills
+## General
 
-- **sheesh-cloud-feature-work** — Implements and verifies features in compatible Next.js App Router and Payload CMS sites, with added guidance for sheesh.cloud.
-- **portfolio-evidence-curator** — Turns real school, technical, and personal project material into honest portfolio case studies and CMS-ready drafts.
-- **cyberpatriot-safe-publishing** — Drafts and reviews public CyberPatriot learning material while holding restricted or unknown-provenance content for review.
+- [`marketplace-offer-evaluator`](general/marketplace-offer-evaluator/) — assesses second-hand listings for fair value, condition evidence, offer guidance, and risks.
+- [`portfolio-evidence-curator`](general/portfolio-evidence-curator/) — turns real work into credible portfolio case studies without invented claims.
+- [`cyberpatriot-safe-publishing`](general/cyberpatriot-safe-publishing/) — prepares public CyberPatriot learning material while protecting restricted content.
 
-Each skill is automatically discoverable after it is installed into a Codex skills directory. Review a skill before using it in a new environment, especially when it can touch content or deployment workflows.
+## Website
+
+- [`nextjs-payload-feature-work`](website/nextjs-payload-feature-work/) — implements and verifies features in compatible Next.js App Router and Payload CMS sites.
+
+Each skill is independently installable from its own folder. Review its instructions before using it in a new environment, especially where content publication or deployment is involved.
