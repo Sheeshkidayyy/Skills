@@ -6,6 +6,8 @@ Small, focused skills organized by the kind of work they support rather than by 
 
 - [`marketplace-offer-evaluator`](general/marketplace-offer-evaluator/) — assesses second-hand listings for fair value, condition evidence, offer guidance, and risks.
 - [`portfolio-evidence-curator`](general/portfolio-evidence-curator/) — turns real work into credible portfolio case studies without invented claims.
+- [`case-study-humanizer`](general/case-study-humanizer/) — drafts and edits natural case-study prose while preserving the author's voice, facts, and project status.
+- [`github-commit-push`](general/github-commit-push/) — prepares focused commits and verifies approved GitHub publication through Git or a connected app.
 - [`cyberpatriot-safe-publishing`](general/cyberpatriot-safe-publishing/) — prepares public CyberPatriot learning material while protecting restricted content.
 
 ## Website

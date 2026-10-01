@@ -1,0 +1,6 @@
+interface:
+  display_name: "Case Study Humanizer"
+  short_description: "Make case studies natural while preserving the facts"
+  default_prompt: "Use $case-study-humanizer to turn my project notes into a natural case study while preserving my facts and voice."
+policy:
+  allow_implicit_invocation: true
