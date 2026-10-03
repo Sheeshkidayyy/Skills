@@ -19,9 +19,9 @@ Deliver a well-scoped feature with verified behavior and a rendered local previe
 
 1. State the intended behavior and affected routes or content before editing.
 2. Make the smallest coherent implementation. Reuse shared components and selectors when the behavior belongs in more than one place.
-3. Run focused checks appropriate to the risk: formatting or diff checks, type checking, linting, targeted tests, and browser verification for visible work.
-4. Start or reuse a local preview for visible changes and inspect the affected routes. Honor repository-defined preview and release gates.
-5. Report what passed, what was visually verified, and meaningful gaps. Do not claim a release, deployment, or migration completed without direct evidence.
+3. Run focused checks appropriate to the risk: formatting or diff checks, type checking, linting, targeted tests, and browser verification for visible work. For access or schema changes, exercise public and private reads against the affected content model.
+4. Start or reuse a local preview for visible changes. Inspect affected routes at relevant viewport sizes and verify controls after any intro or transition finishes. Honor repository-defined preview and release gates.
+5. Report what passed, what was visually verified, and meaningful gaps. Separate a rendered fallback page from verified database-backed behavior. Do not claim a release, deployment, or migration completed without direct evidence.
 
 ## Schema and release boundaries
 
