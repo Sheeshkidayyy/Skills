@@ -4,6 +4,7 @@ Small, focused skills organized by the kind of work they support rather than by 
 
 ## General
 
+- [`documenter`](general/documenter/) — recovers relevant past chats, preserves decisions and attempts, and records verified solutions and next steps for future AI sessions.
 - [`marketplace-offer-evaluator`](general/marketplace-offer-evaluator/) — assesses second-hand listings for fair value, condition evidence, offer guidance, and risks.
 - [`portfolio-evidence-curator`](general/portfolio-evidence-curator/) — turns real work into credible portfolio case studies without invented claims.
 - [`case-study-humanizer`](general/case-study-humanizer/) — drafts and edits natural case-study prose while preserving the author's voice, facts, and project status.
