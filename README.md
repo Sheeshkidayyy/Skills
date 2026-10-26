@@ -19,4 +19,8 @@ Small, focused skills organized by the kind of work they support rather than by 
 - [`payload-compose-diagnosis`](website/payload-compose-diagnosis/) — diagnoses Payload, PostgreSQL, Compose, and proxy failures from runtime evidence.
 - [`nas-release-and-rollback`](website/nas-release-and-rollback/) — prepares and verifies authorized website releases on Docker Compose-hosted NAS systems, including backup and rollback planning.
 
+## Tech
+
+- [`cyberpatriot-specialist`](tech/cyberpatriot-specialist/) — defensive study companion for CyberPatriot-style incident response: account and persistence auditing, Windows/Linux/Cisco baselines, forensics method, and recovery. General methodology only — no competition answers, image-specific findings, or scoring data.
+
 Each skill is independently installable from its own folder. Review its instructions before using it in a new environment, especially where content publication or deployment is involved.
