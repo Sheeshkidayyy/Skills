@@ -1,0 +1,6 @@
+interface:
+  display_name: "Sheesh Cloud Feature Work"
+  short_description: "Build compatible Next.js and Payload features"
+  default_prompt: "Use $sheesh-cloud-feature-work to implement this website feature and verify it locally."
+policy:
+  allow_implicit_invocation: true

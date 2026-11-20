@@ -1,0 +1,6 @@
+interface:
+  display_name: "Payload Compose Diagnosis"
+  short_description: "Trace Payload, database, and proxy failures"
+  default_prompt: "Use $payload-compose-diagnosis to trace this deployment failure and verify the affected route."
+policy:
+  allow_implicit_invocation: true

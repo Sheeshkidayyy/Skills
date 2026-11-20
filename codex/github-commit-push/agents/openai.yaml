@@ -1,0 +1,6 @@
+interface:
+  display_name: "GitHub Commit and Push"
+  short_description: "Commit and publish the intended changes to GitHub"
+  default_prompt: "Use $github-commit-push to prepare and verify a commit containing my intended changes, and publish it when authorized."
+policy:
+  allow_implicit_invocation: true

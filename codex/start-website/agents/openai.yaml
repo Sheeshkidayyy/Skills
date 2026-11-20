@@ -1,0 +1,6 @@
+interface:
+  display_name: "Start Website"
+  short_description: "Start a LAN preview and check GitHub branch freshness"
+  default_prompt: "Use $start-website to check GitHub develop, start my website on the LAN at port 3000, and report its commit differences from main."
+policy:
+  allow_implicit_invocation: true
