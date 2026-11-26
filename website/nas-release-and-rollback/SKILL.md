@@ -38,7 +38,7 @@ Do not proceed when a required backup is missing or unverified, the migration pa
 
 1. Reconfirm the selected source commit or immutable image tag immediately before the state-changing step. Keep source publication, CI, image build, and NAS deployment as separate actions with separate authorization.
 2. Use the deployment command and migration sequence documented by the repository. Do not invent Compose files, service names, environment paths, or migration steps.
-3. On UGREEN NAS hosts, invoke Compose with `sudo docker compose` and keep the production environment file private. Recheck current UGOS port mappings and proxy configuration; do not assume ports or host services are unchanged.
+3. Invoke Compose the way the host's deployment guide specifies (some NAS platforms require `sudo docker compose`) and keep the production environment file private. Recheck the NAS's current port mappings and proxy configuration; do not assume ports or host services are unchanged.
 4. Apply only the changes required for this release. Never use `docker compose down -v`, remove a persistent volume, run development schema push, or restore a database as a speculative fix.
 5. Capture sanitized command results and the exact image or commit deployed. If a build, migration, or service update fails, stop and inspect the failure before retrying. Do not repeat a failed migration blindly or chain additional state changes to hide an error.
 
