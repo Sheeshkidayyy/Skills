@@ -2,11 +2,6 @@
 
 Small, focused skills organized by the kind of work they support rather than by a single personal website.
 
-This repository mirrors the local master copy at `~/Documents/AI playground/AI/skills`
-(Steam Deck). OpenCode discovers that folder globally through the `skills` entries in
-`~/.config/opencode/opencode.json`, so editing a skill locally and syncing it here keeps
-the collection recoverable off-machine.
-
 ## Collections
 
 | Folder | Skills | What it is |
